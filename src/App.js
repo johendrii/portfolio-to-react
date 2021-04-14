@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./component/NavbarPart";
+import JumbotronPart from "./component/JumbotronPart";
+import About from "./component/About";
+import Project from "./component/Project";
+// import Album from "./component/Album";
+import Album from "./album/Album";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
+import "animate.css/animate.min.css";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="home">
+      <Navbar />
+      <JumbotronPart />
+      <About />
+      <Project />
+      {/* <Album /> */}
+      <Album />
+      <Contact />
+      <Footer />
     </div>
   );
 }

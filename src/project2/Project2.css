@@ -1,0 +1,117 @@
+#project2 {
+  font-family: "Lato", sans-serif;
+  background-color: #f7f7f7;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-right: 20px;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  position: block;
+}
+
+#project2 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#project2 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#project2 .btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+#project2 .btn:focus {
+  outline: none;
+}
+
+#project2 .btn:active {
+  transform: scale(0.98);
+}
+
+#project2 .btn-block {
+  display: block;
+  width: 100%;
+}
+
+#project2 .task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#project2 .task.reminder {
+  border-left: 5px solid green;
+}
+
+#project2 .task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#project2 .add-form {
+  transition: transform 1000ms ease-in;
+  margin-bottom: 40px;
+}
+
+#project2 .form-control2 {
+  margin: 20px 0;
+}
+
+#project2 .form-control2 label {
+  display: block;
+}
+
+#project2 .form-control2 input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+#project2 .form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#project2 .form-control-check label {
+  flex: 1;
+}
+
+#project2 .form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+#project2 footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#project2 .logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
