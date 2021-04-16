@@ -5,7 +5,6 @@ import "firebase/storage";
 import "firebase/auth";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyD74sLnaExcTLrHY5cujRQqX7vToB2gJx4",
   authDomain: "johendri-portfolio.firebaseapp.com",
   projectId: "johendri-portfolio",
   storageBucket: "johendri-portfolio.appspot.com",
